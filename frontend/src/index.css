@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   width: 100%;
   z-index: 1050;
-  padding: 18px 48px;
-  background: rgba(255, 255, 255, 0.85);
+  padding: 28px 48px; /* Increased height */
+  background: rgba(239, 246, 255, 0.95); /* Soft premium blue background */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);

@@ -4,7 +4,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 // Base API configuration
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://eldercare-backend-tp2v.onrender.com/api';
 axios.defaults.baseURL = API_URL;
 
 export const AuthProvider = ({ children }) => {

@@ -1130,7 +1130,7 @@ const VoiceInteraction = () => {
                             {log.audioFile && log.audioFile !== 'simulated_audio_clip.wav' && (
                               <div className="mt-1" style={{ maxWidth: '280px' }}>
                                 <audio
-                                  src={`http://localhost:5000/${log.audioFile}`}
+                                  src={`https://eldercare-backend-tp2v.onrender.com/${log.audioFile}`}
                                   controls
                                   className="w-100"
                                   style={{ height: '30px' }}

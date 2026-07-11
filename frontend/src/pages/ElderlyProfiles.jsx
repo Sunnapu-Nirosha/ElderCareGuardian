@@ -625,7 +625,7 @@ const ElderlyProfiles = () => {
                           </div>
                           <div className="d-flex gap-2">
                             <a 
-                              href={`http://localhost:5000/uploads/documents/${doc.fileName}`} 
+                              href={`https://eldercare-backend-tp2v.onrender.com/uploads/documents/${doc.fileName}`} 
                               target="_blank" 
                               rel="noopener noreferrer" 
                               download
